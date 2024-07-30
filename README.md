@@ -8,7 +8,6 @@ Technical Stack
 Frontend Framework: React.js
 Styling: CSS
 Deployment: Vercel
-API Reference: KukuFM API
 Installation
 Clone the Repository:
 
@@ -31,7 +30,7 @@ Visit http://localhost:3000 in your browser to view the project.
 Deployment
 The project is deployed on Vercel. You can access the live version via the following URL:
 
-Live Demo
+Live Demo : https://kukufm-landing-page.vercel.app/
 Performance
 Images and assets are optimized for minimal load times.
 Lazy loading is implemented where applicable to enhance performance.
