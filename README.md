@@ -47,8 +47,6 @@ The page is designed to be fully responsive, ensuring functionality on both mobi
 Contribution
 Feel free to fork the repository and make contributions. For any issues or feature requests, please open an issue on GitHub.
 
-License
-This project is licensed under the MIT License.
 
 Acknowledgements
 React.js for the frontend framework.
