@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'https://d31ntp24xvh0tq.cloudfront.net/api/v2.1/home/all/?preferred_langs=hindi&page=1&lang=english';
+const API_URL = process.env.REACT_APP_API_URL;
 
 export const fetchData = async (page) => {
     try {

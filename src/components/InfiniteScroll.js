@@ -1,8 +1,7 @@
 import axios from 'axios';
 import React, { useCallback, useEffect, useState } from 'react';
-import Carousel from './Carousel';
-import LoadingSpinner from './LoadingSpinner';
 import '../styles/InfiniteScroll.css';
+import LoadingSpinner from './LoadingSpinner';
 
 const InfiniteScroll = () => {
     const [items, setItems] = useState([]);
@@ -15,7 +14,7 @@ const InfiniteScroll = () => {
         if (loading || !hasMore) return;
         setLoading(true);
         try {
-            const response = await axios.get(`https://d31ntp24xvh0tq.cloudfront.net/api/v2.1/home/all/?preferred_langs=hindi&page=${page}&lang=english`);
+            const response = await axios.get(`${process.env.REACT_APP_API_URL}&page=${page}`);
             const newItems = response.data.items || [];
             setItems(prevItems => [...prevItems, ...newItems]);
             setHasMore(newItems.length > 0);
