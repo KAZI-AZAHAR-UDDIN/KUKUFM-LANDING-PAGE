@@ -1,0 +1,92 @@
+.header {
+  background-color: #bd0707;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.searchContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  color: orangered;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 600px;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: #a30a0a;
+}
+
+.languageSelector {
+  display: flex;
+  align-items: center;
+}
+
+.languageButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.languageTitle {
+  font-weight: bold;
+  color: #fff;
+}
+
+.languageInfo {
+  font-size: 12px;
+  color: #fff;
+}
+
+.navLinks a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mobileSearchContainer {
+  margin-bottom: 10px;
+}

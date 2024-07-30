@@ -1,0 +1,85 @@
+.infinite-scroll {
+    margin: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .top-10-container {
+    margin-bottom: 20px;
+  }
+  
+  .top-10-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .top-10-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .top-10-title {
+    font-size: 16px;
+  }
+  
+  .items-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .banner-item {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .banner-card {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .banner-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .banner-info {
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .banner-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .banner-description {
+    font-size: 14px;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-item {
+      flex: 1 1 45%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-item {
+      flex: 1 1 100%;
+    }
+  }
+  

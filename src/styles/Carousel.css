@@ -1,0 +1,40 @@
+.carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensure the image is displayed as a block element */
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust as needed */
+    z-index: 2; /* Ensure caption is above other content */
+  }
+  
+  .slick-prev, .slick-next {
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; /* Adjust size */
+    height: 30px; /* Adjust size */
+    background-color: rgba(0, 0, 0, 0.5); /* Visible background */
+    border-radius: 50%; /* Round buttons */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 20px; /* Adjust arrow size */
+    color: white; /* Arrow color */
+  }
+  
